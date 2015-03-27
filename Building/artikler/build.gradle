@@ -1,0 +1,30 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+// Name of the class where you have public static void main
+mainClassName = "Main"
+
+defaultTasks 'install'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    jcenter()
+}
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+    testCompile 'junit:junit:4.11'
+
+    compile 'org.jsoup:jsoup:1.8.1'
+}
+
+// Not strictly necessary but makes test output better
+test {
+    testLogging {
+        // Remove this to hide "expected ... but was ..." for failing tests
+        exceptionFormat = 'full'
+
+        // Uncomment this to show output from System.out
+        //showStandardStreams = true
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.40"
+    xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="FxmlExample">
+   <center>
+      <Button text="Click me!" onAction="#handleButtonClick" />
+   </center>
+   <padding>
+      <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+   </padding>
+</BorderPane>

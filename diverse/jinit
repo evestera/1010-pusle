@@ -1,0 +1,25 @@
+#!/bin/bash
+
+mkdir -p src/{main/{java,resources},test/{java,resources}}
+
+cat >build.gradle <<EOL
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "Main"
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.11'
+}
+
+test {
+    testLogging {
+        exceptionFormat = 'full'
+        //showStandardStreams = true
+    }
+}
+EOL

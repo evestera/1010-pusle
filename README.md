@@ -2,7 +2,7 @@
 
 ## Kommende timer
 
-- Versjonskontroll, git(kan bli endret) (15. mai)
+- Design Patterns i Java (22. mai)
 
 ## Slides fra tidligere timer
 - [Processing](http://slides.com/evestera/inf1010-processing/)
@@ -11,6 +11,7 @@
 - [Bruk av IDE (IntelliJ IDEA)](http://slides.com/evestera/java-ide/)
 - [JavaFX](http://slides.com/evestera/javafx/)
 - [JUnit](http://slides.com/evestera/junit/)
+- [Versjonskontroll med Git](http://slides.com/evestera/git-intro/)
 
 # Hvordan få en kopi av java-kildekoden
 

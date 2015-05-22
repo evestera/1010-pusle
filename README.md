@@ -1,10 +1,6 @@
 # INF1010 Puslegruppe - Vår 2015
 
-## Kommende timer
-
-- Design Patterns i Java (22. mai)
-
-## Slides fra tidligere timer
+## Slides fra timene
 - [Processing](http://slides.com/evestera/inf1010-processing/)
 - [Java 8](http://slides.com/evestera/inf1010-java8-pusle/)
 - [Byggeverktøy/Gradle](http://slides.com/evestera/bygge-java)
@@ -12,6 +8,7 @@
 - [JavaFX](http://slides.com/evestera/javafx/)
 - [JUnit](http://slides.com/evestera/junit/)
 - [Versjonskontroll med Git](http://slides.com/evestera/git-intro/)
+- [Design Patterns i Java](http://slides.com/evestera/design-patterns-i-java/)
 
 # Hvordan få en kopi av java-kildekoden
 
